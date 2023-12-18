@@ -1,2 +1,2 @@
 # codeWithGurupasam
-My Site:https://gurunathpasam.github.io/codeWithGurupasam/#
+My Site:https://gurunathpasam.github.io/Guru-Portfolio/
