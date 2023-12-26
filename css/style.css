@@ -54,6 +54,29 @@ header{
       max-width: 1152px;
     }
   }
+/* Your existing CSS styles */
+
+/* Media query for devices with a maximum width of 768 pixels (typical for tablets) */
+@media only screen and (max-width: 768px) {
+    /* Add styles for smaller screens here */
+    body {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
+
+/* Media query for devices with a maximum width of 480 pixels (typical for phones) */
+@media only screen and (max-width: 480px) {
+    /* Add styles for even smaller screens here */
+    body {
+        font-size: 12px; /* Further adjust font size for phones */
+    }
+
+    /* Adjust other styles as needed for a mobile-friendly layout */
+    .site-main-wrapper {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
+
 
 header nav .left a{
     color:var(--pure);
